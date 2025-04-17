@@ -8,6 +8,7 @@ web search tool functionality using Brave Search API
 - An AWS account. 
 - An AWS Identity and Access Management (IAM) User with access to Amazon Bedrock.
 - Amazon Bedrock Model Access to Claude 3.5 model
+- AWS CLI configured. Use ``aws --version``.
 
 1) **Requirements:**
 - First, install Python 3.12.
@@ -36,7 +37,6 @@ python --version
 pip3 install requests boto3 html2text streamlit
 ```
 
-- You must have the AWS CLI configured. Use ``aws --version``. 
 
 
 
